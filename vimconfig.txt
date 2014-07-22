@@ -1,0 +1,6 @@
+Valloric/YouCompleteMe
+Ctrl-P
+NerdTree
+Syntastic
+
+Eclim
