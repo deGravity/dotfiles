@@ -1,5 +1,2 @@
-bundle/
-*.swp
-tmp/
 .DS_Store
-*.vimrc
+*.swp
