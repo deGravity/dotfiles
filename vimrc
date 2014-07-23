@@ -89,16 +89,29 @@ syntax on
 " Key Bindings
 let mapleader = "-"
 " Remap keys for Dvorak
-"unmap d
 noremap d h
 noremap h gj
 noremap t gk
 vnoremap h gj
 vnoremap t gk
 noremap n l
+noremap N L
 noremap l n
+noremap L n
 noremap e d
 noremap E D
+" 'till moves to bottom row from standard QWERTY position
+noremap k t
+noremap K T
+" End move down one from standard Dvorak position
+noremap j e
+noremap J E
+" Join lines stays in the same locations
+noremap H J
+" Help (K) and screen top (H) are left unmapped
+" A more economical mapping would probably be
+" d->h->j-t->k->, n->l->, but I was already accustomed to
+" keeping delete in the same place (e/E).
 
 " Quick escaping
 inoremap hh <ESC>
