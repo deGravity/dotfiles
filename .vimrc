@@ -6,16 +6,16 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'scrooloose/nerdtree'
-Plugin 'scrooloose/nerdcommenter'
+"Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/syntastic'
 
 Plugin 'tpope/vim-fugitive.git'
-Plugin 'gregsexton/gitv'
-Plugin 'artur-shaik/vim-javacomplete2'
-Plugin 'hsanson/vim-android'
+"Plugin 'gregsexton/gitv'
+"Plugin 'artur-shaik/vim-javacomplete2'
+"Plugin 'hsanson/vim-android'
 Plugin 'kien/ctrlp.vim'
-Plugin 'tacahiroy/ctrlp-funky'
-Plugin 'tpope/vim-dispatch'
+"Plugin 'tacahiroy/ctrlp-funky'
+"Plugin 'tpope/vim-dispatch'
 " Plugin 'tpope/vim-jdaddy' " May need bindings.
 
 " Color Schemes
@@ -25,7 +25,7 @@ Plugin 'blueshirts/darcula'
 Plugin 'tomasr/molokai'
 
 " Syntax Highlighters
-Plugin 'derekwyatt/vim-scala'
+"Plugin 'derekwyatt/vim-scala'
 call vundle#end()
 
 :command! Vimrc execute "vsplit ~/.vimrc"
@@ -33,7 +33,7 @@ call vundle#end()
 :command! Rebundle execute "source ~/.vimrc | BundleInstall"
 
 " Turn filetype back on now that Vundle is done
-filetype plugin on
+filetype plugin indent on
 filetype on
 
 set laststatus=2

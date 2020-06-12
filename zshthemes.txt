@@ -1,0 +1,7 @@
+ZSH_THEME="af-magic"
+# Themes I have liked thus far:
+# clean
+# af-magic
+# nicoulaj
+# jonathan
+
