@@ -37,3 +37,13 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 vim +PluginInstall +qall
 
+
+read -p "Enter name for git." gituser
+read -p "Enter email address for git." gitemail
+
+git config --global user.name $gituser
+git config --global user.email $gitemail
+
+echo 'PATH=/usr/local/anaconda3:$PATH' >> ~/.zshrc
+
+
