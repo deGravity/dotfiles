@@ -19,6 +19,7 @@ open "https://github.com/settings/keys"
 git clone git@github.com:deGravity/dotfiles.git ~/.dotfiles
 
 brew install vim
+brew install tmux
 brew cask install iterm2
 brew cask install visual-studio-code
 brew cask install google-chrome
@@ -44,6 +45,6 @@ read -p "Enter email address for git." gitemail
 git config --global user.name $gituser
 git config --global user.email $gitemail
 
-echo 'PATH=/usr/local/anaconda3:$PATH' >> ~/.zshrc
+echo 'PATH=/usr/local/anaconda3/bin:$PATH' >> ~/.zshrc
 
 
