@@ -2,4 +2,4 @@ Installation Instructions:
 
 Mac
 
-sh -c "$(curl -fsSL https://raw.github.com/degravity/dotfiles/setuposx.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/deGravity/dotfiles/master/setuposx.sh)"
